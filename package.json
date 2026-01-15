@@ -1,0 +1,46 @@
+{
+  "name": "@phattran1201/react-native-bluetooth-printer",
+  "version": "0.0.1",
+  "description": "React Native plugin for Bluetooth ESC/POS & TSC printers.",
+  "main": "index.ts",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "ESC",
+    "POS",
+    "Bluetooth",
+    "Printer"
+  ],
+  "author": "Phat Tran",
+  "maintainers": [
+    {
+      "name": "Phat Tran",
+      "email": "phattran1201@gmail.com",
+      "url": "https://github.com/phattran1201"
+    }
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": ">=0.60.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phattran1201/react-native-bluetooth-printer.git"
+  },
+  "homepage": "https://github.com/phattran1201/react-native-bluetooth-printer#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.52.0",
+    "@typescript-eslint/parser": "^8.52.0",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  }
+}

@@ -1,0 +1,41 @@
+# Created by .ignore support plugin (hsz.mobi)
+examples
+.idea
+.vscode
+docs
+
+# Build artifacts
+android/build/
+android/.gradle/
+android/.idea/
+android/.project
+android/.settings/
+android/local.properties
+android/gradle/
+android/gradlew
+android/gradlew.bat
+ios/build/
+
+# Heap dumps and logs
+*.hprof
+*.log
+
+# Lock files
+bun.lock
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Node modules (should never be published)
+node_modules/
+
+# Git files
+.git/
+.gitignore
+.gitattributes
+
+# Editor configs
+.editorconfig
+.eslintrc.cjs
+.prettierrc.cjs
+tsconfig.json
